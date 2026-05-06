@@ -1,4 +1,4 @@
-package com.example.virtualthread;
+package com.example.virtualthread.threadExample;
 
 import java.util.concurrent.Executors;
 

@@ -1,4 +1,4 @@
-package com.example.virtualthread;
+package com.example.virtualthread.threadExample;
 
 public class VirtualThread {
     public static void main(String[] args) throws InterruptedException {

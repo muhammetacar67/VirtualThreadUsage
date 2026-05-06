@@ -1,4 +1,4 @@
-package com.example.virtualthread;
+package com.example.virtualthread.threadExample;
 
 public class NormalThread {
     public static void main(String[] args) {
@@ -23,3 +23,17 @@ public class NormalThread {
 //Oluşturması pahalıdır
 //Çok sayıda açarsan sistem zorlanır
 //Blocking (bekleme) durumunda thread boş boş bekler
+
+
+//Normal thread:
+//
+//Baştan full stack ayrılır (örneğin 1 MB)
+//
+//Virtual thread:
+//
+//stack yok gibi düşün
+//ihtiyaç oldukça küçük küçük büyür (chunk / continuation)
+//
+//👉 Yani:
+//
+//1 milyon virtual thread = 1 milyon * 1 MB değil!
